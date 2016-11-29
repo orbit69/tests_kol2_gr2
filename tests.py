@@ -22,7 +22,7 @@ class MyTest(unittest.TestCase):
         self.assertEqual(s.is_present(1, True), s.marks_in_day[1])
 
     def test_add_mark(self):
-        
+
 
 
 
