@@ -58,6 +58,7 @@ class Student(object):
         x = []
         [x.extend(y) for y in not_bool_list]
         print ("average for %s is %.2f" % (self,reduce(sum_of_marks,x)/reduce(sum_,x)))
+        return reduce(sum_of_marks,x)/reduce(sum_,x)
 
     def __str__(self):
         return self.name+" "+self.surname
