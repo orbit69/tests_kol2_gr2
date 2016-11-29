@@ -41,9 +41,6 @@ class Student(object):
         self.class_ = student_class
         self.marks_in_day = {}
 
-    def add(self,x ,y):
-        return x + y
-
     def is_present(self,day_id,is_present):
         self.marks_in_day[day_id] = None if is_present else False
 
